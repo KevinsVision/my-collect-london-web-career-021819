@@ -4,5 +4,5 @@ def my_collect(array)
     yield array
     i += 1
   end
-  my_collect(capitalize) { |x| x.upcase }
+  my_collect(array) { |x| x.upcase }
 end
