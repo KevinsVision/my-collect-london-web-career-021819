@@ -4,5 +4,5 @@ def my_collect(array)
     yield array
     i += 1
   end
-  my_collect
+  my_collect(capitalize)
 end
