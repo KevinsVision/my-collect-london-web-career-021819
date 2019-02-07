@@ -1,8 +1,8 @@
 def my_collect(array)
   i = 0
   while i < array.length
-    yield array
+    yield(array)
     i += 1
   end
-  my_collect(array) { |x| x.upcase }
+  my_collect { |x| x.upcase }
 end
